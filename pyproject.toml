@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "htmx-django-todo"
+version = "0.1.0"
+description = "todo app htmx test"
+authors = ["Pablo Thasi  <thasipablo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
